@@ -105,13 +105,6 @@
   height: 792px;
   padding-top: 36px;
 }
-.hero2 {
-  /* background-image: url(Figure.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 792px;
-  margin-top: 12px; */
-}
 .hpro {
   font-family: "Inter", sans-serif;
   size: 16px;
@@ -172,29 +165,268 @@
   background-image: url(grid1.png);
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-top: 36px;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  gap: 12px;
+  font-size: 22px;
+  color: #1d1d1f;
+}
+.int {
+  display: flex;
+  flex-direction: row;
+  padding-top: 420px;
 }
 .grid2 {
   background-image: url(grid2.png);
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-top: 470px;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  gap: 18px;
+  font-size: 22px;
+  color: #f5f5f7;
 }
 .grid3 {
   background-image: url(grid3.png);
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-top: 42px;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  gap: 12px;
+  font-size: 22px;
+  color: #1d1d1f;
+}
+.Vector {
+  width: 36px;
+  height: 42px;
+}
+.watch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  font-size: 36px;
+}
+.trade {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  font-size: 36px;
 }
 .grid4 {
   background-image: url(grid4.png);
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-top: 42px;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  gap: 18px;
+  font-size: 22px;
 }
 .grid5 {
   background-image: url(grid5.png);
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-top: 42px;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  gap: 18px;
+  font-size: 22px;
+}
+.est {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  flex-direction: row;
+  background-color: #0071e3;
+  border-radius: 24px;
+  color: #ffffff;
+  width: 235px;
+  height: 40px;
 }
 .grid6 {
   background-image: url(grid6.png);
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-top: 42px;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  gap: 18px;
+  font-size: 22px;
+}
+.apply {
+  width: 123px;
+  height: 44px;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2997ff;
+  border: 1px solid #2997ff;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+.scroll {
+  width: 100vw;
+  display: flex;
+  column-gap: 15px;
+  overflow-x: scroll;
+  align-items: center;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.movie1 {
+  background-image: url(movie1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 668px;
+  width: 1250px;
+  color: white;
+  flex-shrink: 0;
+  font-size: 20px;
+  position: relative;
+  scroll-snap-align: center;
+}
+.movie2 {
+  background-image: url(bad-monkey.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 668px;
+  width: 1250px;
+  color: white;
+  flex-shrink: 0;
+  font-size: 20px;
+  position: relative;
+  scroll-snap-align: center;
+}
+.movie3 {
+  background-image: url(baseball.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 668px;
+  width: 1250px;
+  color: white;
+  flex-shrink: 0;
+  font-size: 20px;
+  position: relative;
+  scroll-snap-align: center;
+}
+.movie4 {
+  background-image: url(instigators.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 668px;
+  width: 1250px;
+  color: white;
+  flex-shrink: 0;
+  font-size: 20px;
+  position: relative;
+  scroll-snap-align: center;
+}
+.movie5 {
+  background-image: url(k-pop-idols.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 668px;
+  width: 1250px;
+  color: white;
+  flex-shrink: 0;
+  font-size: 20px;
+  position: relative;
+  scroll-snap-align: center;
+}
+.movie6 {
+  background-image: url(lady-in-the-lake.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 668px;
+  width: 1250px;
+  color: white;
+  flex-shrink: 0;
+  font-size: 20px;
+  position: relative;
+  scroll-snap-align: center;
+}
+.movie7 {
+  background-image: url(morning-show.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 668px;
+  width: 1250px;
+  color: white;
+  flex-shrink: 0;
+  font-size: 20px;
+  position: relative;
+  scroll-snap-align: center;
+}
+
+.movie8 {
+  background-image: url(pachinko.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 668px;
+  width: 1250px;
+  color: white;
+  flex-shrink: 0;
+  font-size: 20px;
+  position: relative;
+  scroll-snap-align: center;
+}
+.movie9 {
+  background-image: url(pressumed-innocent.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 668px;
+  width: 1250px;
+  color: white;
+  flex-shrink: 0;
+  font-size: 20px;
+  position: relative;
+  scroll-snap-align: center;
+}
+.movie10 {
+  background-image: url(season-pass.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 668px;
+  width: 1250px;
+  color: white;
+  flex-shrink: 0;
+  font-size: 20px;
+  position: relative;
+  scroll-snap-align: center;
+}
+button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 11px 21px;
+  margin-right: 14px;
+  border-radius: 999px;
+  background-color: #f5f5f7;
+  left: 47px;
+  bottom: 38px;
+  position: absolute;
+  border: none;
 }
