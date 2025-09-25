@@ -163,7 +163,6 @@
 .hero4 > div {
   height: 680px;
   width: 100%;
-  border: 1px solid black;
 }
 .grid1 {
   background-image: url(grid1.png);
@@ -445,62 +444,86 @@ button {
   border: none;
   flex-direction: row;
 }
-.slide {
+.dot {
   width: 100vw;
+  height: 25px;
+  background-image: url(ss.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide {
+  width: 100%;
   height: 240px;
   padding-top: 12px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   gap: 12px;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
+  overflow: hidden;
+  position: relative;
 }
-/* .slide1 {
-  background-image: url(slide1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+
+.slide > div {
+  width: 417px;
+  height: 236px;
+  animation: scroll 25s linear infinite;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 10));
+  }
+}
+
+.slide1 {
+  background-color: rgb(20, 40, 56);
+  /* width: fit-content;
+  height: fit-content; */
+}
+.moom {
+  height: 390px;
+  height: 200px;
+  padding-top: 30px;
+  padding-left: 18px;
 }
 .slide2 {
-  background-image: url(2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #eae6e1;
 }
 .slide3 {
   background-image: url(3.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 .slide4 {
   background-image: url(4.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 .slide5 {
   background-image: url(5.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 .slide6 {
   background-image: url(6.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 .slide7 {
   background-image: url(7.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 .slide8 {
-  background-image: url(8.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: rgb(64, 13, 14);
 }
 .slide9 {
   background-image: url(9.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 .slide10 {
-  background-image: url(10.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
+  background-color: rgb(38, 38, 38);
+}
