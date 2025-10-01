@@ -181,7 +181,9 @@
   display: flex;
   flex-direction: row;
   padding-top: 420px;
+  color: linear-gradient(45deg, #0090f7 30%, #ba62fc 61%, #f2416b 100%);
 }
+
 .grid2 {
   background-image: url(grid2.png);
   background-repeat: no-repeat;
