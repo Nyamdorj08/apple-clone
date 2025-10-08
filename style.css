@@ -454,28 +454,28 @@ button {
   background-repeat: no-repeat;
 }
 .slide {
-  width: 100%;
+  width: fit-content;
   height: 240px;
   padding-top: 12px;
   /* border: 1px solid black; */
   gap: 12px;
-  display: grid;
-  grid-template-columns: repeat(10, 1fr);
+  display: flex;
+  flex-direction: row;
   overflow: hidden;
-  position: relative;
+  position: absolute;
 }
 
 .slide > div {
   width: 417px;
   height: 236px;
-  animation: scroll 25s linear infinite;
+  animation: scroll 20s linear infinite;
 }
 @keyframes scroll {
   0% {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-250px * 10));
+    transform: translateX(calc(-320px * 20));
   }
 }
 

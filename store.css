@@ -69,7 +69,7 @@
   font-size: 18px;
 }
 .gift {
-  width: 85%;
+  width: 100%;
   padding-left: 80px;
   display: flex;
   flex-direction: row;
@@ -204,6 +204,7 @@
   padding-left: 36px;
   gap: 6px;
   flex-direction: column;
+  width: 300px;
 }
 .bagts1 {
   background-image: url(imac.jpeg);
@@ -445,8 +446,15 @@
 .tor {
   background-image: url(tor.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
-  width: 480px;
+  background-size: cover;
+  width: 520px;
+  border-radius: 24px;
+}
+.hand {
+  background-image: url(hand.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 520px;
   border-radius: 24px;
 }
 .get {
@@ -456,10 +464,112 @@
   font-size: 28px;
   font-family: "Inter", sans-serif;
 }
+
 .miss {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  width: 620px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--gap);
+  flex: 1 1 620px;
+  border: 1px solid black;
+  padding-top: 20px;
+}
+/* .miss1 {
   border: 1px solid black;
   gap: 12px;
+  height: 250px;
+}
+.miss2 {
+  border: 1px solid black;
+  gap: 12px;
+  height: 250px;
+} */
+.human {
+  background-image: url(humans.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 480px;
+  border-radius: 24px;
+}
+.nohoi {
+  background-image: url(nohoi.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 480px;
+  border-radius: 24px;
+  color: #ffffff;
+}
+.apps {
+  background-image: url(apps.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 480px;
+  border-radius: 24px;
+}
+.a123 {
+  background-image: url(a123.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 480px;
+  border-radius: 24px;
+}
+.op {
+  background-image: url(op.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  border-radius: 24px;
+}
+.zail {
+  background-image: url(zail.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  border-radius: 24px;
+}
+.rich {
+  background-image: url(rich.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  border-radius: 24px;
+}
+.maria {
+  background-image: url(maria.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  border-radius: 24px;
+  color: #ffffff;
+}
+.turuu {
+  background-image: url(turuu.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  border-radius: 24px;
+}
+.last {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  font-family: "Inter", sans-serif;
+  flex-direction: row;
+  padding-left: 90px;
+  align-items: center;
+  background-color: #f5f5f7;
+  gap: 18px;
+}
+.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 24px;
+  width: 150px;
+  height: 50px;
+  gap: 6px;
+}
+.bow {
+  width: 15px;
+  height: 15px;
 }
